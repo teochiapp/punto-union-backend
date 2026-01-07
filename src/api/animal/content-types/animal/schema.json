@@ -13,6 +13,16 @@
   "attributes": {
     "Nombre": {
       "type": "string"
+    },
+    "Portada": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
     }
   }
 }
